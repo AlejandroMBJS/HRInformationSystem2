@@ -35,17 +35,16 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
+        
               <div className="flex items-center justify-center">
                 <Image
                   src="/logo.png" // Use the root path for the public directory
                   alt="Company Logo"
-                  width={150} // Set the desired width
-                  height={150} // Set the desired height
+                  width={100} // Set the desired width
+                  height={100} // Set the desired height
                 />
               </div>
-              <span className="ml-3 text-xl font-bold text-gray-900 tracking-tight">
-                IRIS Talent
-              </span>
+              
             </div>
           </div>
 

@@ -60,7 +60,7 @@ export default function DashboardPage() {
       <main className="py-8 relative z-10">
               {role === Role.ADMIN && <AdminMainDashboard />}
               {role === Role.HR && <HrMainDashboard />}
-              {isHighPosition(role) && <HighPositionMainDashboard />}
+              {role === Role.MANAGER && <HighPositionMainDashboard />}
               {role === Role.EMPLOYEE && <EmployeeMainDashboard />}
               {role === Role.PAYROLL && <PayrollMainDashboard />}
             </main>
