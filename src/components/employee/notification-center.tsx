@@ -1,17 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import {
-  Bell,
-  CheckCircle,
-  AlertCircle,
-  Info,
-  X,
-  Eye,
-  Trash2,
-  Filter,
-  Search
-} from 'lucide-react'
+import { Bell, CircleCheck as CheckCircle, CircleAlert as AlertCircle, Info, X, Eye, Trash2, ListFilter as Filter, Search } from 'lucide-react'
 
 interface Notification {
   id: string

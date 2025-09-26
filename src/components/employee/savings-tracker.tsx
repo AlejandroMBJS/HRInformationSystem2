@@ -1,18 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import {
-  PiggyBank,
-  TrendingUp,
-  DollarSign,
-  Calendar,
-  Target,
-  BarChart3,
-  Plus,
-  Minus,
-  Eye,
-  Download
-} from 'lucide-react'
+import { PiggyBank, TrendingUp, DollarSign, Calendar, Target, ChartBar as BarChart3, Plus, Minus, Eye, Download } from 'lucide-react'
 
 interface EmployeeStats {
   attendanceRate: number

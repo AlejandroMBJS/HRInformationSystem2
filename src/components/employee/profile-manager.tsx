@@ -2,21 +2,7 @@
 
 import { useState } from 'react'
 import { useSession } from 'next-auth/react'
-import {
-  User,
-  Mail,
-  Phone,
-  MapPin,
-  Building,
-  Briefcase,
-  Calendar,
-  Edit,
-  Save,
-  X,
-  Shield,
-  Clock,
-  DollarSign
-} from 'lucide-react'
+import { User, Mail, Phone, MapPin, Building, Briefcase, Calendar, CreditCard as Edit, Save, X, Shield, Clock, DollarSign } from 'lucide-react'
 
 export function ProfileManager() {
   const { data: session } = useSession()

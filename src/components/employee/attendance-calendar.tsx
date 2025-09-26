@@ -1,17 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import {
-  Calendar,
-  ChevronLeft,
-  ChevronRight,
-  CheckCircle,
-  XCircle,
-  Clock,
-  TrendingUp,
-  Users,
-  AlertCircle
-} from 'lucide-react'
+import { Calendar, ChevronLeft, ChevronRight, CircleCheck as CheckCircle, Circle as XCircle, Clock, TrendingUp, Users, CircleAlert as AlertCircle } from 'lucide-react'
 
 interface AttendanceData {
   date: string

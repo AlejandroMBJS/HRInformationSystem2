@@ -3,20 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
-import { 
-  Calendar,
-  DollarSign,
-  Clock,
-  CheckCircle,
-  XCircle,
-  AlertTriangle,
-  PiggyBank,
-  TrendingUp,
-  User,
-  Building,
-  Phone,
-  Mail
-} from 'lucide-react'
+import { Calendar, DollarSign, Clock, CircleCheck as CheckCircle, Circle as XCircle, TriangleAlert as AlertTriangle, PiggyBank, TrendingUp, User, Building, Phone, Mail } from 'lucide-react'
 
 interface EmployeeStats {
   attendanceRate: number
@@ -396,23 +383,6 @@ export function EmployeeMainDashboard() {
                 )}
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Employee Portal Link */}
-      <div className="bg-white shadow-xl rounded-2xl border border-gray-100 card-hover">
-        <div className="px-6 py-8">
-          <h3 className="text-xl font-bold text-gray-900 mb-6">Employee Portal</h3>
-          <div className="text-center">
-            <button 
-              onClick={() => router.push('/employee/portal')}
-              className="w-full p-6 bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl border border-blue-200 hover:shadow-lg transition-all duration-200 text-center group"
-            >
-              <User className="h-12 w-12 text-blue-600 mx-auto mb-4 group-hover:scale-110 transition-transform" />
-              <p className="text-lg font-semibold text-blue-900">Access Full Portal</p>
-              <p className="text-sm text-blue-700 mt-2">Complete employee dashboard with calendar, savings tracker, and more</p>
-            </button>
           </div>
         </div>
       </div>

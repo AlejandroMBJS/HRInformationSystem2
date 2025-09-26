@@ -3,30 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
-import {
-  Calendar,
-  Clock,
-  DollarSign,
-  PiggyBank,
-  TrendingUp,
-  User,
-  Building,
-  Phone,
-  Mail,
-  MapPin,
-  Briefcase,
-  CheckCircle,
-  XCircle,
-  AlertTriangle,
-  Plus,
-  Eye,
-  FileText,
-  Settings,
-  Bell,
-  ChevronLeft,
-  ChevronRight,
-  Home
-} from 'lucide-react'
+import { Calendar, Clock, DollarSign, PiggyBank, TrendingUp, User, Building, Phone, Mail, MapPin, Briefcase, CircleCheck as CheckCircle, Circle as XCircle, TriangleAlert as AlertTriangle, Plus, Eye, FileText, Settings, Bell, ChevronLeft, ChevronRight, Hop as Home } from 'lucide-react'
 import { AttendanceCalendar } from './attendance-calendar'
 import { SavingsTracker } from './savings-tracker'
 import { RequestManager } from './request-manager'
