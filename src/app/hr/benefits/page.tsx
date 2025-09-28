@@ -4,10 +4,7 @@ import { useState, useEffect } from 'react'
 import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 import { Role } from '@prisma/client'
-import { 
-  Heart, Plus, Search, Edit, Trash2, Eye, Users, 
-  DollarSign, Calendar, Shield, Activity, TrendingUp
-} from 'lucide-react'
+import { Heart, Plus, Search, CreditCard as Edit, Trash2, Eye, Users, DollarSign, Calendar, Shield, Activity, TrendingUp } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'

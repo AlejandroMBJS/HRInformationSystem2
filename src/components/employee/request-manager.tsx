@@ -2,10 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useSession } from 'next-auth/react'
-import { 
-  Calendar, DollarSign, FileText, Plus, Clock, CheckCircle, 
-  XCircle, AlertCircle, Send, Eye, Edit, Trash2, Filter, Search 
-} from 'lucide-react'
+import { Calendar, DollarSign, FileText, Plus, Clock, CircleCheck as CheckCircle, Circle as XCircle, CircleAlert as AlertCircle, Send, Eye, CreditCard as Edit, Trash2, ListFilter as Filter, Search } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'

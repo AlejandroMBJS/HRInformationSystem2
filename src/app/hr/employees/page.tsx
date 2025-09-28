@@ -4,10 +4,7 @@ import { useState, useEffect } from 'react'
 import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 import { Role } from '@prisma/client'
-import { 
-  Users, Plus, Search, Edit, Trash2, Eye, Filter, Download,
-  Building, Mail, Phone, Calendar, DollarSign, UserCheck
-} from 'lucide-react'
+import { Users, Plus, Search, CreditCard as Edit, Trash2, Eye, ListFilter as Filter, Download, Building, Mail, Phone, Calendar, DollarSign, UserCheck } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
