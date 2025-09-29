@@ -3,11 +3,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
-import { 
-  Home, User, Calendar, DollarSign, FileText, Users, 
-  GraduationCap, MessageSquare, Target, Clock, Settings,
-  Heart, BarChart3, ChevronRight, PanelLeft
-} from 'lucide-react'
+import { Hop as Home, User, Calendar, DollarSign, FileText, Users, GraduationCap, MessageSquare, Target, Clock, Settings, Heart, ChartBar as BarChart3, ChevronRight, PanelLeft } from 'lucide-react'
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
